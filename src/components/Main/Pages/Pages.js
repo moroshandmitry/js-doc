@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { Home } from '../../../pages/Home';
 import { Contacts } from '../../../pages/Contacts';
 import { About } from '../../../pages/About';
+import { FakePage } from '../../../pages/FakePage';
 
 import s from './Pages.module.scss';
 
@@ -16,6 +17,10 @@ export const Pages = () => {
 
 				<Route path="/contacts" exact>
 					<Contacts />
+				</Route>
+
+				<Route path="/fakepage" exact>
+					<FakePage />
 				</Route>
 
 				<Route path="/about" exact>
