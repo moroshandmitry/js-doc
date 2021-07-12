@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #f5deb3;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #8f812f;
+}
+
+a.active {
+	text-decoration: underline;
+	color: #fbefab;
+}
