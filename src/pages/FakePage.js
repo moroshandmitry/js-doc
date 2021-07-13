@@ -1,15 +1,18 @@
-import { useEffect } from 'react';
-import Prism from 'prismjs';
-
 export const FakePage = () => {
-	useEffect(() => {
-		Prism.highlightAll();
-	}, []);
+	const code = `//React
+const App = props => {
+  return (
+    <div>
+      <h1>React App</h1>
+      <div>Awesome code</div>
+    </div>
+  );
+};`;
 
 	return (
 		<div>
 			<pre>
-				<code class="language-js">console.log('Hello, world!');</code>
+				<code className="lang-jsx">{code}</code>
 			</pre>
 		</div>
 	);
