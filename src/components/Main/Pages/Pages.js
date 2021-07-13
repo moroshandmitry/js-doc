@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { Home } from '../../../pages/Home';
 import { Contacts } from '../../../pages/Contacts';
 import { About } from '../../../pages/About';
-import { FakePage } from '../../../pages/FakePage';
+import { ReduxInfoPage } from '../../../pages/ReduxInfoPage';
 
 import s from './Pages.module.scss';
 
@@ -19,8 +19,8 @@ export const Pages = () => {
 					<Contacts />
 				</Route>
 
-				<Route path="/fakepage" exact>
-					<FakePage />
+				<Route path="/redux-info-page" exact>
+					<ReduxInfoPage />
 				</Route>
 
 				<Route path="/about" exact>

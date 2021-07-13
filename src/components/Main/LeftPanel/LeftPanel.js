@@ -5,8 +5,8 @@ import s from './LeftPanel.module.scss';
 const LINKS = [
 	{
 		id: 1,
-		url: '/fakepage',
-		title: 'Fake page',
+		url: '/redux-info-page',
+		title: 'Redux info page',
 	},
 ];
 
